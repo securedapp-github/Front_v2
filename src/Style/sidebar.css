@@ -1,0 +1,161 @@
+.mainpage{
+    display:flex;
+    flex-direction:row;
+    height:100%;
+}
+.sidebar{
+    display:flex;
+    flex-direction:column;
+    background-color:#101010;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    padding:5px 20px;
+    padding-left:0;
+}
+
+
+.sideNavButton{
+    padding:20px;
+    padding-right:20px;
+}
+.dashboard{
+    background-image:linear-gradient(to right,black,rgb(14, 14, 61));
+    width:100%;
+    display:flex;
+    flex-direction:column;
+}
+.navbar{
+    width:100%;
+    padding:3vw 0 !important;
+}
+.riht{
+    position:relative;
+    right:5%;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+   
+}
+.riht div{
+    margin:auto 10%;
+    display:inline-block;
+    text-align:center;
+}
+.wallet {
+    text-align:center;
+}
+[data-rk] .ju367v93 {
+    background-color: transparent;
+    font-size:20px;
+    font-weight:400;
+}
+[data-rk]{
+    height:100%;
+}
+.iekbcc0.ju367va.ju367vz.ju367v10.ju367v6j{
+    position:fixed;
+    top:4px;
+}
+
+[data-rk] ._9pm4ki3{
+    top:0px;
+}
+/* @media only screen and (max-width:592px){
+    .navBrand{
+        display:none;
+    }
+    .navbar{
+        margin:0 auto;
+    }
+} */
+.rihtLink{
+    padding-left:10px;
+    padding-right:20px;
+}
+.rihtLink:hover{
+    background-color:#12D576 !important;
+    border-radius:30px;
+}
+/* ConnectButton{
+    background-color:#12D576 !important;
+    border-radius:20px;
+} */
+@media only screen and (max-width:1298px){
+    #comp_name{
+        display:none !important;
+    }
+}
+
+@media only screen and (max-width:1000px){
+    .navbar{
+        margin-bottom:5vw;
+    }
+}
+
+@media only screen and (max-width:945px){
+    #contact{
+        display: none;
+    }
+}
+
+@media only screen and (max-width:700px){
+    #sales,#pricing{
+      padding:0 !important;
+    }
+    #sales1,#pricing1{
+      display:none !important;
+    }
+    #bars{
+      display:block !important;
+      position:relative !important;
+      left:10px !important;
+      top:6vw !important;
+      z-index:2 !important;
+      width:5vw;
+      height:5vw;
+    }
+    #sidebar1{
+      display:none !important;
+    }
+    .themeic{
+        display:none !important;
+    }
+    .offcanvas{
+        width:125px !important;
+        background-color: #101010;
+    }
+  }
+
+@media only screen and (min-width:648px){
+    .iekbcc0.ju367va.ju367v1n:hover{
+        background-color:#12D576 !important;
+        border-radius:30px;
+    }
+}
+.iekbcc0.ju367va.ju367v1n{
+    padding-top:3px;
+}
+@media only screen and (max-width:600px){
+    #comp_name{
+        display:none;
+    }
+}
+@media only screen and (max-width:453px){
+    #bars{
+        width:23px !important;
+        height:23px !important;
+    }
+    .navBrand{
+        display:none;
+    }
+    .dropdown{
+        margin:0 !important;
+    }
+    #sales,#pricing{
+        display:none;
+    }
+    #sales1,#pricing1{
+        display:block !important;
+        text-decoration:none !important;
+    }
+}
