@@ -3,7 +3,6 @@ import './App.css'
 import Sidebar from './Components/sidebar.jsx'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'font-awesome/css/font-awesome.min.css';
-// import NewHome from './Components/newHome.jsx';
 
 function App() {
   return (
