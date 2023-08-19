@@ -10,6 +10,7 @@ function App() {
     <Routes>
     {/* <Route exact path="/home" element={<NewHome/>} /> */}
       <Route exact path="/" element={<Sidebar page={"home"}/>} />
+      <Route exact path="/token" element={<Sidebar page={"token"}/>} />
       {/* <Route exact path="/token" element={<Sidebar page={"token"}/>} />
       <Route exact path="/contact" element={<Sidebar page={"contact"}/>} />
       <Route exact path="/pricing" element={<Sidebar page={"pricing"}/>} /> */}
@@ -27,7 +28,8 @@ function App() {
       <Route exact path="/editsale/:SALE" element={<Sidebar page={"editsale"}/>} />
       <Route exact path="/managesale/:SALE" element={<Sidebar page={"managesale"}/>} />
       <Route exact path="/buysale/:SALE" element={<Sidebar page={"buysale"}/>} />
-      <Route exact path="/distributetoken" element={<Sidebar page={"distributetoken"}/>} /> */} */}
+      <Route exact path="/distributetoken" element={<Sidebar page={"distributetoken"}/>} /> */} */
+      
       <Route path="*" element={<Sidebar page={"error"}/>} />
     </Routes>
     </BrowserRouter>
