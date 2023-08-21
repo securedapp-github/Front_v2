@@ -18,7 +18,9 @@ function Wallet(props) {
   const CONTRACT_ADDRESS = process.env.REACT_APP_FACTORY_CONTRACT;
   const DB_LINK = process.env.REACT_APP_DB;
 
-  const address = getAddress();
+  // const address = getAddress();
+  const [address, setaddress] = useState(getAddress());
+
   const [activeButton, setActiveButton] = useState(null);
   const [tableHeaders, setTableHeaders] = useState([]);
   const [loading, setLoading] = useState(false);
