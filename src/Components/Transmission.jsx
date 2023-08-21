@@ -53,7 +53,7 @@ const Transmission = () => {
       </div>
       <form onSubmit={sendMail}>
       <div className="py-8">
-        <button type="button" className="email-button rounded-3xl bg-gray-500 text-white  flex items-center justify-between md:w-[620px] md:h-[92px] w-[300px]   ">
+        <button type="button" className="email-button rounded-3xl bg-gray-500 text-white  flex items-center justiafy-between md:w-[620px] md:h-[92px] w-[300px]   ">
           <input
             type="email"
             value={email}
