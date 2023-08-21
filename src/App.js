@@ -3,6 +3,7 @@ import './App.css'
 import Sidebar from './Components/sidebar.jsx'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'font-awesome/css/font-awesome.min.css';
+import ScanComp from 'Components/ScanComp';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
     {/* <Route exact path="/home" element={<NewHome/>} /> */}
       <Route exact path="/" element={<Sidebar page={"home"}/>} />
       <Route exact path="/token" element={<Sidebar page={"token"}/>} />
+      <Route exact path="/smart-contract-scanner-solidity-shield" element={<ScanComp />} />
       {/* <Route exact path="/token" element={<Sidebar page={"token"}/>} />
       <Route exact path="/contact" element={<Sidebar page={"contact"}/>} />
       <Route exact path="/pricing" element={<Sidebar page={"pricing"}/>} /> */}
