@@ -2,7 +2,7 @@
 import { useState } from "react";
 import { Dialog } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
-import Logo from "../images/logoblacktextsdlogowhite-1@2x.png";
+import Logo from "../assets/images/logoblacktextsdlogowhite-1@2x.png";
 import AuditModal from "./AuditModal";
 
 const navigation = [

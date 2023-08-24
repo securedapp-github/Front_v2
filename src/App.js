@@ -1,10 +1,11 @@
 import {BrowserRouter,Route,Routes} from 'react-router-dom'
 import './App.css'
-import Sidebar from './Components/sidebar.jsx'
+import Sidebar from './Components/sidebar/sidebar'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'font-awesome/css/font-awesome.min.css';
 import ScanComp from 'Components/ScanComp';
 import AboutComp from 'Components/AboutComp';
+import ContactComp from 'Components/ContactComp/ContactComp';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Route exact path="/token" element={<Sidebar page={"token"}/>} />
       <Route exact path="/smart-contract-scanner-solidity-shield" element={<ScanComp />} />
       <Route exact path="/about-us" element={<AboutComp />} />
+      <Route exact path="/contact-us" element={<ContactComp />} />
       {/* <Route exact path="/token" element={<Sidebar page={"token"}/>} />
       <Route exact path="/contact" element={<Sidebar page={"contact"}/>} />
       <Route exact path="/pricing" element={<Sidebar page={"pricing"}/>} /> */}

@@ -5,7 +5,7 @@ import AboutUsHero from "./AboutUsHero";
 import MeettheTeam from "./MeettheTeam";
 //import Footer from "./Footer";
 import FooterInAbout from "./FooterInAbout";
-import TransmissionInAbout from "./TransmissionInAbout";
+//import TransmissionInAbout from "./TransmissionInAbout";
 import Transmission from "./Transmission";
 import NavWithBread from "./NavWithBread ";
 

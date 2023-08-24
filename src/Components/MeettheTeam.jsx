@@ -1,9 +1,9 @@
 import React from "react";
-import andrew from "../images/andrew.png";
-import rouhan from "../images/rouhan.png";
+import andrew from "../assets/images/andrew.png";
+import rouhan from "../assets/images/rouhan.png";
 import AboutContent from "./AboutContent";
-import himanshu from "../images/himanshu.png";
-import abishek from "../images/abishek.png";
+import himanshu from "../assets/images/himanshu.png";
+import abishek from "../assets/images/abishek.png";
 
 const TeamCard = ({ image, name, designation, description }) => (
   <div className="w-full md:w-1/2 lg:w-[300px] lg:ml-[25px] mx-[20px] pb-[20px]">
