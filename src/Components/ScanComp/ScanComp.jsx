@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from "react";
-import FlatContractForm from "./FlatContractForm";
+import FlatContractForm from "../FlatContractForm";
 //import { Scanner } from "./Scanner";
 //import ShieldCore from "./ShieldCore";
 import BenefitsOfScan from "./BenefitOfScan";
-import Navbar from "./Navbar";
-import Transmission from "./Transmission";
-import FooterInScan from "./FooterInScan";
+import Navbar from "../Navbar";
+import Transmission from "../Transmission";
+import FooterInScan from "../FooterInScan";
 
 
 const ScanComp = () => {
