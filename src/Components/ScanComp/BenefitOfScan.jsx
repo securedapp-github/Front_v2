@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import SectionHeader from "./SectionHeader";
-import Description from "./Description";
-import DescriptionFor from "./DescriptionFor";
+import SectionHeader from "../SectionHeader";
+import Description from "../Description";
+import DescriptionFor from "../DescriptionFor";
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import Loader from 'Components/utils/loader';
