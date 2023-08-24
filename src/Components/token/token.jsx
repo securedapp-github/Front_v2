@@ -5,7 +5,7 @@ import "../Style/token.css"
 import Vector from '../assets/Vector.png'
 import Fox from '../assets/Fox.png'
 import { ethers } from 'ethers';
-import Loader from 'utils/loader';
+import Loader from 'Components/utils/loader';
 import Info from './info.jsx';
 import { formatAddress } from '../utils/address';
 import { ToastContainer, toast } from 'react-toastify';

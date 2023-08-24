@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import SectionHeader from "./SectionHeader";
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import Loader from 'utils/loader';
+import Loader from 'Components/utils/loader';
 
 const FlatContractForm = () => {
   const [showanalyse, setshowanalyse] = useState(false);

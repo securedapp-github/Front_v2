@@ -1,7 +1,7 @@
 import React from 'react'
 import { ConnectButton } from "@rainbow-me/rainbowkit";
 import '../Style/home.css'
-import Home from '../assets/home.png'
+import Home from '../assets/images/home.png'
 function home() {
   return (
     <div className="home">

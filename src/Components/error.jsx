@@ -1,5 +1,5 @@
 import React from 'react'
-import ErrorJPG from '../assets/404.png'
+import ErrorJPG from '../assets/images/404.png'
 function Error() {
   const containerStyle = {
     position: 'fixed',
