@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
-import Icon from '../assets/logo_img.png'
-import Banner from '../assets/logo_img1.png'
+import Icon from '../../assets/images/logo_img.png'
+import Banner from '../../assets/images/logo_img.png'
 
 
 export function Side1({ theme }) {

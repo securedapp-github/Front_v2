@@ -1,16 +1,16 @@
 import { ConnectButton } from "@rainbow-me/rainbowkit";
 import React, { useEffect,useState } from 'react'
-import 'Style/sidebar.css'
+import './sidebar.css'
 import { Link } from 'react-router-dom'
 import { getAddress } from '../utils/address';
 
-import Wallet from './Wallet.jsx'
-import Home from './home.jsx'
-import Error from './error.jsx'
+import Wallet from '../Wallet'
+import Home from '../home'
+import Error from '../error'
 import {useLocation} from 'react-router-dom'
 
-import { Side1 } from './sidebar1.jsx'
-import Icon from '../assets/logo_img.png'
+import { Side1 } from './sidebar1'
+import Icon from '../../assets/images/logo_img.png'
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
